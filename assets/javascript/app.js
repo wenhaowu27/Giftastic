@@ -79,6 +79,11 @@ $(document).on("click", ".btn", function() {
       // }
       });
 
+      $(document).on("click", "#reset", function(event){
+        localStorage.clear();
+        location.reload(true);
+      })
+
       $("#gifs-appear-here").on("click", ".gif", function(event){
         event.preventDefault();        
         var state = $(this).attr("data-state");
