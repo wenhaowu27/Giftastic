@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#F7786B;
+    margin: 0 auto;
+    font-size: 30;
+    line-height: 2.0;
+  }
+  .header{
+    padding:30px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:10px;
+    background:#FFD662;
+  }
+  button {
+    margin:5px;
+    width:100px;
+  }
+  /* #images {
+    width:20px;
+    height:auto;
+  } */
+  
+  #pic{
+    float: left;
+   margin: 5px;
+  }
+  img{
+    width:200px;
+    height:200px;
+    margin:5x;
+  }
+  
+  #addButtonFrom{
+    float: right;
+    margin-top: 55%;
+  }
+#rowColor { 
+height:45px;
+background:#FFD662;
+}
